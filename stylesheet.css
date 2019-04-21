@@ -92,10 +92,11 @@ header .logo{
 .map{
   width:100%;
   opacity: 0.7;
+  position:relative;
 }
 
 .map img{
-  position: relative;
+  
 }
 
 .map a{
@@ -106,32 +107,32 @@ header .logo{
 
 .map .aichi{
   position: absolute;
-  top:90%;
-  right: 41.5%;
+  top:77%;
+  right: 40.3%;
 }
 
 .map .hukui{
   position: absolute;
-  top:73.2%;
-  right:46%;
+  top:57.3%;
+  right:45.5%;
 }
 
 .map .shiga{
   position: absolute;
-  top:78%;
-  right:45.2%;
+  top:63%;
+  right:44.5%;
 }
 
 .map .hyougo{
   position: absolute;
-  top:77.2%;
-  right:53.2%;
+  top:62%;
+  right:53.7%;
 }
 
 .map .okayama{
   position: absolute;
-  top:80.5%;
-  right:56%;
+  top:65.5%;
+  right:56.8%;
 }
 
 .vertical{
