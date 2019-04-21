@@ -1,0 +1,144 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1300px;
+  width:100%;
+  margin:0 auto;
+}
+
+.btn{
+  transition: all 0.5s;
+}
+
+.btn:hover{
+  opacity: 1.0;
+  color: #6666ff;
+}
+
+header{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(34, 49, 52);
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+
+.header-left{
+  float: left;
+}
+
+header .logo{
+  font-size: 20px;
+  background-color: #996666;
+  color: white;
+  line-height: 60px;
+  padding: 0px 10px;
+  display:inline-block;
+  opacity: 0.7;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-right a {
+  font-size: 20px;
+  line-height: 60px;
+  padding: 0 10px;
+  color: white;
+  display: inline-block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.map-wrapper{
+  background-image: url("C:/Users/minia/Documents/materials/pexels-photo-357428.jpeg");
+  background-color: #f8dce0;
+  background-size: cover;
+  padding: 50px 0px 300px 0px;
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+}
+
+.map-wrapper h1{
+  font-size: 70px;
+  letter-spacing: 10px;
+  opacity: 0.7;
+}
+
+.map{
+  opacity: 0.7;
+}
+
+.map img{
+  position: relative;
+}
+
+.map a{
+  color:white;
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.map .aichi{
+  position: absolute;
+  top:90%;
+  right: 41.5%;
+}
+
+.map .hukui{
+  position: absolute;
+  top:73.2%;
+  right:46%;
+}
+
+.map .shiga{
+  position: absolute;
+  top:78%;
+  right:45.2%;
+}
+
+.map .hyougo{
+  position: absolute;
+  top:77.2%;
+  right:53.2%;
+}
+
+.map .okayama{
+  position: absolute;
+  top:80.5%;
+  right:56%;
+}
+
+.vertical{
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+.map-contents{
+  display: none;
+}
