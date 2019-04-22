@@ -18,7 +18,7 @@ a {
 }
 
 .container{
-  max-width: 1300px;
+  max-width: 980px;
   width:100%;
   margin:0 auto;
 }
@@ -36,9 +36,6 @@ header{
   height: 60px;
   width: 100%;
   background-color: rgba(34, 49, 52);
-  position: fixed;
-  top:0;
-  z-index: 10;
 }
 
 .header-left{
@@ -78,7 +75,6 @@ header .logo{
   background-color: #f8dce0;
   background-size: cover;
   padding: 50px 0px 300px 0px;
-  margin-top: 60px;
   text-align: center;
   color: white;
 }
@@ -95,10 +91,6 @@ header .logo{
   position:relative;
 }
 
-.map img{
-  
-}
-
 .map a{
   color:white;
   font-size: 22px;
@@ -108,31 +100,31 @@ header .logo{
 .map .aichi{
   position: absolute;
   top:77%;
-  right: 40.3%;
+  right: 37.2%;
 }
 
 .map .hukui{
   position: absolute;
   top:57.3%;
-  right:45.5%;
+  right:44%;
 }
 
 .map .shiga{
   position: absolute;
   top:63%;
-  right:44.5%;
+  right:42.7%;
 }
 
 .map .hyougo{
   position: absolute;
   top:62%;
-  right:53.7%;
+  right:54.9%;
 }
 
 .map .okayama{
   position: absolute;
   top:65.5%;
-  right:56.8%;
+  right:59%;
 }
 
 .vertical{
